@@ -22,7 +22,6 @@ const TodoList = () => {
                   <TodoItem key={id} text={text} id={id} completed={completed} />
                 )
               )
-
             })}
           </FlipMove>)}
 

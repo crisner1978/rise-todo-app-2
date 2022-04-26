@@ -28,7 +28,7 @@ const TodoForm = () => {
         type="text"
       />
       <button className="hover:scale-110 active:scale-95 transform transition-all ease-out duration-150" onClick={onSubmit} type="submit">
-        <PlusCircleIcon className="h-10 w-10 text-purple-900 bg-purple-200 rounded-full" />
+        <PlusCircleIcon className="h-10 w-10 text-purple-900/90 bg-purple-200 rounded-full" />
       </button>
     </form>
   );
