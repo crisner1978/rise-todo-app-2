@@ -8,7 +8,6 @@ import SortButtons from './SortButtons'
 const TodoList = () => {
   const todos = useSelector((state) => state.todos)
   const status = useSelector((state) => state.sort.sort)
-  let completed = todos.filter(todo => todo.completed)
   
   return (
     <>
