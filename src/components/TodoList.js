@@ -6,8 +6,7 @@ import SortButtons from './SortButtons'
 
 
 const TodoList = () => {
-  const todos = useSelector((state) => state.todos)
-  const { sort } = useSelector((state) => state.sort)
+  const [todos, { sort }] = useSelector((state) => [state.todos, state.sort])
   console.log("status", todos)
   return (
     <>
